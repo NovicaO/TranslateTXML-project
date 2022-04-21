@@ -1,0 +1,26 @@
+Create an application that will read a TXML file and output a translated version as well as a summary report for that file.
+
+TRANSLATION API
+We will provide you with access to an API to perform machine translation of the text.  The API documentation is provided for reference but you can follow the directions below:
+
+The translation API can be used via GET calls like the example below:
+https://www.worldlingo.com/S11887.1/api?wl_password=7DC5xl94&wl_errorstyle=1&wl_srclang=en&wl_trglang=fr&wl_data=test%20this%20sentence
+
+The following parameters should be modified in your translation calls:
+wl_errorstyle – API error code in response header (wl_errorstyle=1) or in the first line of the response (default)
+wl_srclang – the source language (see approved language codes)
+wl_trglang – the target language (see approved language codes)
+wl_data – the data to be translated
+
+approved language codes: en, ar, de, el, es, fr, it,  ja, ko, nl, pt, ru, sv, zh_cn, zh_tw
+
+TXML
+TXML is a proprietary XML format used by TransPerfect.  Samples of the source and translated versions of TXML are provided.  You can assume the source language of an individual txml file is monolingual.
+
+RUNNING THE APPLICATION
+The application should be able to be run by running this command:
+java TranslateTXML –f [path to source txml file] –o [output path]  -s [source language] –t [target language] [-e] 
+
+The –e argument is optional.  When –e is left out the application will only translate the source and write the translated txml to the output path.  When –e is present, then the application will also evaluate the source and translated text.  The evaluation will output a frequency count of unique words in the source and translated segments respectively. 
+
+

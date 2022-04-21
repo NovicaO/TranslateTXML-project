@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<txml createdby="WF3.4.14" datatype="doc" editedby="WF3.4.14" file_extension="doc" locale="EN-US" segtype="sentence" targetlocale="ES-XM" version="1.0" wordcount="40">
+  <translatable blockId="0" wordcount="7">
+    <segment blockId="1">
+      <source segmentId="1">This is a test!</source>
+      <target>Это будет испытание!</target>
+    </segment>
+  </translatable>
+  <translatable blockId="0" wordcount="6">
+    <segment blockId="2">
+      <source segmentId="2">Where is the library?</source>
+      <target>Где архив?</target>
+    </segment>
+  </translatable>
+  <translatable blockId="0" wordcount="13">
+    <segment blockId="3">
+      <source segmentId="3">I would like to use the restroom.</source>
+      <target>Я хотел был бы использовать уборный.</target>
+    </segment>
+  </translatable>
+  <translatable blockId="0" wordcount="9">
+    <segment blockId="4">
+      <source segmentId="4">The bear ate some honey.</source>
+      <target>Медведь съел некоторый мед.</target>
+    </segment>
+  </translatable>
+  <translatable blockId="0" wordcount="5">
+    <segment blockId="5">
+      <source segmentId="5">Cookies are delicious .</source>
+      <target>Cookies delicious.</target>
+    </segment>
+  </translatable>
+</txml>
